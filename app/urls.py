@@ -14,7 +14,7 @@ urlpatterns = [
 
     # Child URLs
     path('child/list', ChildListView.as_view(), name='children'),
-    path('childd/create', ChildCreate.as_view(), name='create.child'),
+    path('child/create', ChildCreate.as_view(), name='create.child'),
     path('child/update/<int:pk>', ChildUpdate.as_view(), name='update.child'),
     path('child/delete/<int:pk>', ChildDelete.as_view(), name='delete.child'),
 ]
