@@ -17,7 +17,7 @@
 11. Then navigating to the url http://127.0.0.1:8000/ the django welocome page will be displayed
 12. After that need to navigate to the admin panel by using the following url http://127.0.0.1:8000/admin/ where the super user credentials need to used in order to login
 13. And after logged in to the admin panel Create, Read, Update and Delete operations can be performed for the app
-14. Alternatively Parent User can be created by using the following rest api http://127.0.0.1:8000/app/parent/create and providing json data as:  
+14. Alternatively Parent User for the app can be created by using the following rest api http://127.0.0.1:8000/app/parent/create and providing json data as:  
     {
         "first_name": "Robert",
         "last_name": "Jack",
@@ -27,8 +27,8 @@
         "zip": "1"
     }
     If the Parent User is created the server will response with HTTP 200 OK
-15. Using the following rest api http://127.0.0.1:8000/app/parent/list created Parent Users data can be retrieved from the server
-16. The above Parent User data can be updated by using the following rest api http://127.0.0.1:8000/app/parent/update/5 and providing json data as:
+15. Using the following rest api http://127.0.0.1:8000/app/parent/list created Parent Users data of the app can be retrieved from the server
+16. The above Parent User data of the app can be updated by using the following rest api http://127.0.0.1:8000/app/parent/update/5 and providing json data as:
   3   {
         "first_name": "Updated Robert",
         "last_name": "Updated Jack",
@@ -38,20 +38,22 @@
         "zip": "Updated 1"
      }
     If the above Parent User is updated the server will response with HTTP 200 OK
-17. The above Parent User can be deleted by using the following rest api http://127.0.0.1:8000/app/parent/update/5 and when the Parent User data will be deleted the server will response with HTTP 200 OK
-18. Alternatively Child User can be created by using the following rest api http://127.0.0.1:8000/app/child/create and providing json data as:  
+17. The above Parent User of the app can be deleted by using the following rest api http://127.0.0.1:8000/app/parent/update/5 and when the Parent User data of the app will be deleted the server will response with HTTP 200 OK
+18. Alternatively Child User for the app can be created by using the following rest api http://127.0.0.1:8000/app/child/create and providing json data as:  
     {
         "first_name": "Little Robert",
         "last_name": "Jack",
         "parent": 5
     }
     If the Child User is created the server will response with HTTP 200 OK
-19. Using the following rest api http://127.0.0.1:8000/app/child/list created Child Users data can be retrieved from the server
-20. The above Child User can be updated by using the following rest api http://127.0.0.1:8000/app/child/update/5 and providing json data as:
+19. Using the following rest api http://127.0.0.1:8000/app/child/list created Child Users data of the app can be retrieved from the server
+20. The above Child User of the app can be updated by using the following rest api http://127.0.0.1:8000/app/child/update/5 and providing json data as:
     {
         "first_name": "Updated Little Robert",
         "last_name": "Updated Jack",
         "parent": 5
     }
     If the above Child User data is updated the server will response with HTTP 200 OK
-21. The above Child User can be deleted by using the following rest api http://127.0.0.1:8000/app/child/update/5 and when the Child User data will be deleted the server will response with HTTP 200 OK
+21. The above Child User of the app can be deleted by using the following rest api http://127.0.0.1:8000/app/child/update/5 and when the Child User data of the app will be deleted the server will response with HTTP 200 OK
+
+(Note that from steps 11 to 21 all are just examples of Create, Read, Update and Delete operations for the app Parent and Child data)
