@@ -34,8 +34,8 @@
         "last_name": "Updated Jack",
         "street": "Updated example street",
         "city": "Updated example city",
-        "state": "Update example state",
-        "zip": "Update 1"
+        "state": "Updated example state",
+        "zip": "Updated 1"
      }
     If the above Parent User is updated the server will response with HTTP 200 OK
 17. The above Parent User can be deleted by using the following rest api http://127.0.0.1:8000/app/parent/update/5 and when the Parent User data will be deleted the server will response with HTTP 200 OK
