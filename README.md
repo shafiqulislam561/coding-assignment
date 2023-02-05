@@ -17,7 +17,7 @@
                                                                   Quit the server with CTRL-BREAK.
 12. Then navigating to the url http://127.0.0.1:8000/ the django welocome page will be displayed
 13. After that need to navigate to the admin panel by using the following url http://127.0.0.1:8000/admin/ where the super user credentials need to used in order to login
-14. And after logged in to the admin panel Create, Read, Update and Delete operations can be performed for the app
+14. And after logged in to the admin panel Create, Read, Update and Delete operations can be performed for the app User types Parent and Child
 15. Alternatively Parent User for the app can be created by using the following rest api http://127.0.0.1:8000/app/parent/create and providing json data as:  
     {
         "first_name": "Robert",
@@ -57,4 +57,4 @@
     If the above Child User data is updated the server will response with HTTP 200 OK
 22. The above Child User of the app can be deleted by using the following rest api http://127.0.0.1:8000/app/child/update/5 and when the Child User data of the app will be deleted the server will response with HTTP 200 OK
 
-(Note that from steps 11 to 22 all are just examples of Create, Read, Update and Delete operations for the app Parent and Child data)
+(Note that from steps 15 to 22 all are just examples of Create, Read, Update and Delete operations for the app Parent and Child data)
