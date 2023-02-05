@@ -39,7 +39,7 @@
         "zip": "Updated 1"
      }
     If the above Parent User is updated the server will response with HTTP 200 OK
-18. The above Parent User of the app can be deleted by using the following rest api http://127.0.0.1:8000/app/parent/update/5 and when the Parent User data of the app will be deleted the server will response with HTTP 200 OK
+18. The above Parent User of the app can be deleted by using the following rest api http://127.0.0.1:8000/app/parent/delete/5 and when the Parent User data of the app will be deleted the server will response with HTTP 200 OK
 19. Alternatively Child User for the app can be created by using the following rest api http://127.0.0.1:8000/app/child/create and providing json data as:  
     {
         "first_name": "Little Robert",
@@ -55,6 +55,6 @@
         "parent": 5
     }
     If the above Child User data is updated the server will response with HTTP 200 OK
-22. The above Child User of the app can be deleted by using the following rest api http://127.0.0.1:8000/app/child/update/5 and when the Child User data of the app will be deleted the server will response with HTTP 200 OK
+22. The above Child User of the app can be deleted by using the following rest api http://127.0.0.1:8000/app/child/delete/5 and when the Child User data of the app will be deleted the server will response with HTTP 200 OK
 
 (Note that from steps 15 to 22 all are just examples of Create, Read, Update and Delete operations for the app Parent and Child data)
