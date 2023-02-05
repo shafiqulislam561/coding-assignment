@@ -57,4 +57,4 @@
     If the above Child User data is updated the server will response with HTTP 200 OK
 22. The above Child User of the app can be deleted by using the following rest api http://127.0.0.1:8000/app/child/update/5 and when the Child User data of the app will be deleted the server will response with HTTP 200 OK
 
-(Note that from steps 11 to 21 all are just examples of Create, Read, Update and Delete operations for the app Parent and Child data)
+(Note that from steps 11 to 22 all are just examples of Create, Read, Update and Delete operations for the app Parent and Child data)
